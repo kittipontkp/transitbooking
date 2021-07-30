@@ -1,0 +1,44 @@
+body {
+    font-family: sarabun;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  /* border: 1px solid #ffffff; */
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+.underline{
+    position: relative;   
+}
+.underline::before {
+    content: "";
+    border-bottom: 2px solid #333;
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+border-bottom: dashed 1px skyblue;
+position: relative;
+}
+h2 :after {
+position: absolute;
+content: '';
+display: block;
+border-bottom: dashed 1px #ffc778;
+bottom: -3px;
+left: 30%;
+}

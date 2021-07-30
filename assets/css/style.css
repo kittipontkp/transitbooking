@@ -1,0 +1,190 @@
+body, html {
+  height: 100%;
+  font-family: 'Sarabun', cursive !important;
+  font-size: 0.95rem !important;
+}
+
+.card, .small-box {
+  border-radius: 15px !important;
+}
+.small-box-footer {
+  border-radius: 0px 0px 15px 15px !important;
+}
+
+.card-header {
+  border-radius: 15px 15px 0px 0px !important;
+}
+
+/* Side-bar Active */
+a.active.nav-link{
+  /* background-color: #16437E!important; */
+  background-color: #153D77!important;
+  border-radius: 5px !important;
+  width: 230px !important;
+}
+
+/* Link Nav-tab panel */
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs
+ .nav-link.active {
+     color: #000000 !important;
+     font-size: medium;
+     background-color: transparent !important;
+     /* background-color: #6BABFF; */
+     border: 1px solid transparent;
+     border-bottom: 5px solid #0B496F !important;
+     border-top-left-radius: .55rem;
+     border-top-right-radius: .55rem;
+ }
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs
+ .nav-link {
+     color: #0B496F;
+     font-size: medium;
+     background-color: transparent;
+     /* background-color: #6BABFF; */
+     border: 1px solid transparent;
+     border-bottom: -1px solid transparent;
+     border-top-left-radius: .55rem;
+     border-top-right-radius: .55rem;
+ }
+
+ /* Btn */
+ .btn-backward{
+   background-color:rgb(228,230,235) !important;
+   border-radius: 8px !important;
+   width: 150px !important;
+   height: 35px;
+   padding-top: 5px !important;
+ }
+  .btn-action 
+  { 
+    margin-bottom: 0.4rem !important;
+    width: 80px !important;
+  }
+  .btn-custom button{
+    margin-bottom: 0.4rem;
+    width: 200px;
+  }  
+  .btn-group-add button{
+    background-color:rgb(228,230,235);
+    margin-bottom: 0.4rem;
+    width: 300px;
+  }  
+  .toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+      border-radius: 20px;
+      /* font-weight: 100px; */
+    }
+  .toggle.ios .toggle-handle { 
+      border-radius: 20px; 
+  
+  }
+  /* Section addcars */
+  .card-header .fa {
+    transition: .3s transform ease-in-out;
+  }
+  .card-header .collapsed .fa {
+    transform: rotate(90deg);
+  }
+
+
+  
+  .ui-switcher[aria-checked=true] {
+    background-color: #01A63F !important;
+}
+  .ui-switcher {
+    background-color: #bdc1c2 !important;
+    display: inline-block !important;
+    height: 28px !important;
+    width: 80px !important;
+    border-radius: 40px !important;
+    box-sizing: border-box !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    cursor: pointer !important;
+    transition: border-color 0.25s !important;
+    margin: -2px 4px 0 0 !important;
+    box-shadow: inset 1px 1px 1px rgb(0 0 0 / 15%) !important;
+}
+.ui-switcher[aria-checked=false]:after {
+    left: 5px;
+}
+
+.ui-switcher:after {
+    background-color: #ffffff !important;
+    content: '\0020' !important;
+    display: inline-block !important;
+    position: absolute !important;
+    top: 4px !important;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    transition: left 0.25s !important;
+}
+
+.ui-switcher:before {
+    font-family: sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    line-height: 1 !important;
+    display: inline-block !important;
+    position: absolute !important;
+    top: 12px !important;
+    height: 15px !important;
+    width: 20px !important;
+    text-align: center !important;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #b6e1ff !important;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+
+/* Fixed Calendar */
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+    border: none !important;
+}
+.navbar-expand .navbar-nav .nav-link {
+  padding-top: .5rem !important;
+}
+
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color: #1f2d3d;
+    background-color: #ffff00 !important;
+    border-color: #ffff00 !important;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 40px;
+  height: 40px;
+  background: #75c6fc;
+  color: #fff;
+  z-index: 9999;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.to-top:hover{
+  /* color:#000000; */
+  background-color:#3584fc
+}
