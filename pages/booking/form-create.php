@@ -299,6 +299,7 @@ $rowprovince = $result_province->fetch_assoc();
 
 
   <script>
+    // script สำหรับ select 2
     $("#department").select2({
       theme: "bootstrap-5",
       placeholder: "-- กรุณาเลือกหน่วยงาน --",
